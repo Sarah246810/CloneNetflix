@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    appearance: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-size: 100%;
+
+}
+
+p {
+    margin: 5px;
+    font-size: 19px;
+
+}
+
+.quadro {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px;
+    margin-top: 5%;
+}
+
+.container {
+    width: 450px;
+    height: 570px;
+    margin: 20px;
+    background: white;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+.poster {
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/* Informações APP*/
+
+.container_app{
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    color: #8b0000;
+    font-weight: bold;
+    text-decoration:overline;
+}
+
+@keyframes texto{
+    0%{
+        width: 0;
+        border-color: transparent;
+    }
+    50%{
+        border-color: #fff;
+    }
+    100%{
+        width: 100%;
+        border-color: transparent;
+    }
+}
+
+.descricaoApp1 {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+}
+
+.descricaoApp2 {
+    font-size: 18px;
+    margin: 30px;
+    text-align: justify;
+    left: 50%;
+    top: 70%;
+}
+
+.input_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.input {
+    width: 380px;
+    height: 50px;
+    background-color: rgb(216, 215, 215);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.buscarBt {
+    width: 380px;
+    height: 50px;
+    background-color: #DB202C;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 10px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+/*Informações Filmes*/
+
+.container2{
+    width: 450px;
+    height: 570px;
+    background: white;
+}
+
+.poster {
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    position: relative;
+}
+
+.titulo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    margin-top: 5px;
+    position: relative;
+}
+
+.informacoes_parte1 {
+    text-align: center;
+    position: relative;
+}
+
+.informacoes_parte2 {
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 25px;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    font-family:Snell Roundhand;
+    color:dimgray;
+}
+
+
+#sinopse {
+    font-size: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+.msgErro {
+    color: red;
+}

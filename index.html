@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <title>MOVIES</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
+    </head>
+    <body background="./imgFundo.jpg">
+        <div class="quadro">
+            <div class="container container_app">
+                <h1>BEST MOVIE IN MEMORY</h1>
+                <div>                        
+                    <div>
+                        <br>
+                            <p class="descricaoApp1">
+                                O MAIOR e MAIS conhecido site para buscar informações sobre filmes e séries.
+                            </p>
+                        </br>
+                        <p class="descricaoApp2">
+                            No BEST MOVIE IN MEMORY, você tem acesso a uma ficha de informações sobre filmes e séries.
+                            Contendo cada detalhe que vai te ajudar a escolher o melhor filme para aproveitar 
+                            com seus amigos e familia. 
+                        </p>
+                    </div>
+                    <div class="buscar">
+                        <p id="mensagemErro" class="msgErro"></p>
+                        <div class="input_div">
+                            <input class="input" type="text" placeholder="Digite o nome de um filme">
+                        </div>
+                        <button id="botao_buscar" class="buscarBt">Buscar</button>
+                    </div>
+                </div>
+            </div>    
+            <div class="container2">
+                <div>
+                    <div class="informacoes_parte1">
+                        <img class="poster" src="./default_image.png">
+                        <h2 id="titulo" class="titulo"></h2>
+                        <p id="sinopse" class="sinopse"></p>
+                        <p id="poster" class="poster"></p>
+                    </div>
+                    <div class="informacoes_parte2">
+                            <p id="ano" class=""></p>
+                            <p id="duracao"class=""></p>
+                        <p id="genero"class="nome"></p>
+                        <p id="atores"class="nome"></p>
+                        <p id="diretor"class="nome"></p>
+                    </div>
+                </div>
+            </div> 
+        </div>  
+        <script src="app.js"></script>
+    </body>
+</html>
+
+
